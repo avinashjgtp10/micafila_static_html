@@ -1,0 +1,54 @@
+.mainheader{
+
+    .navbar{
+        box-shadow: 0px -1px 9px #666
+    }
+  
+    & .navbar-brand{
+        vertical-align: middle;
+        // & .logo{
+        //     max-width: 140%;
+        // }
+    }
+    & .navbar-nav{
+        padding-left: 48rem;
+
+        & .nav-item {
+            padding-right: 1rem;
+        }
+    }
+   & .nav-item:last-child>.nav-link{
+    padding-right: 0%;
+} 
+}
+@media(max-width:768px){
+    .mainheader{
+        
+            
+        & .navbar-nav{
+            padding-left: 2rem;
+            & .nav-item {
+                padding-right: 0%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+& #sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+/* Toggling the sidebar header content, hide the big heading [h3] and showing the small heading [strong] and vice versa*/
+#sidebar .sidebar-header strong {
+    display: none;
+}
+#sidebar.active .sidebar-header h3 {
+    display: none;
+}
+#sidebar.active .sidebar-header strong {
+    display: block;
+}
+    
+

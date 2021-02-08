@@ -1,0 +1,37 @@
+.mainheader .navbar {
+  -webkit-box-shadow: 0px -1px 9px #666;
+          box-shadow: 0px -1px 9px #666;
+}
+
+.mainheader #sidebar.active {
+  min-width: 80px;
+  max-width: 80px;
+  text-align: center;
+}
+
+.mainheader .navbar-brand {
+  vertical-align: middle;
+}
+
+.mainheader .navbar-nav {
+  padding-left: 48rem;
+}
+
+.mainheader .navbar-nav .nav-item {
+  padding-right: 1rem;
+}
+
+.mainheader .nav-item:last-child > .nav-link {
+  padding-right: 0%;
+}
+
+@media (max-width: 768px) {
+  .mainheader .navbar-nav {
+    padding-left: 2rem;
+  }
+  .mainheader .navbar-nav .nav-item {
+    padding-right: 0%;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */
